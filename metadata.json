@@ -1,0 +1,6 @@
+{
+  "name": "KI Wissenssysteme | Intelligentes Enterprise Wissensmanagement",
+  "description": "Moderne, DSGVO-konforme KI-Wissensassistenten & Enterprise RAG für KMU, Handwerk, Kanzleien und Pflege. Firmenwissen sekundenschnell abrufbar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
