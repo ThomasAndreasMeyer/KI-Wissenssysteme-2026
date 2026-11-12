@@ -1,0 +1,16 @@
+# robots.txt for https://ki-wissenssysteme.de/
+User-agent: *
+Allow: /
+
+# Allow all major search engine crawlers explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location for Google Search Console
+Sitemap: https://ki-wissenssysteme.de/sitemap.xml

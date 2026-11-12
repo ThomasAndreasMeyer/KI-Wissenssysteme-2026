@@ -5,16 +5,191 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <title>KI Wissenssysteme | Intelligentes Enterprise Wissensmanagement</title>
     <meta name="description" content="Moderne, DSGVO-konforme KI-Wissensassistenten & Enterprise RAG für KMU, Handwerk, Kanzleien und Pflege. Firmenwissen sekundenschnell abrufbar." />
+    
+    <!-- Canonical URL (Verhindert Duplicate-Content-Probleme in der Google Search Console) -->
+    <link rel="canonical" href="https://ki-wissenssysteme.de/" />
+
+    <!-- Google Search Console & Suchmaschinen-Robots Direktiven -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Google Search Console Verifikations-Tag (Füge deinen Verification Token hier ein, falls per HTML-Tag verifiziert wird) -->
+    <meta name="google-site-verification" content="" />
+
+    <!-- Sprache & Geografische Zuordnung für lokale Suche in Deutschland / Bayern -->
+    <meta http-equiv="content-language" content="de" />
+    <meta name="geo.region" content="DE-BY" />
+    <meta name="geo.placename" content="Solnhofen" />
+    <meta name="geo.position" content="48.8931;10.9939" />
+    <meta name="ICBM" content="48.8931, 10.9939" />
+
+    <!-- Favicon & Web App Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#020617" />
+
+    <!-- OpenGraph Social Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ki-wissenssysteme.de/" />
     <meta property="og:title" content="KI Wissenssysteme | Intelligentes Enterprise Wissensmanagement" />
     <meta property="og:description" content="Moderne, DSGVO-konforme KI-Wissensassistenten & Enterprise RAG für KMU, Handwerk, Kanzleien und Pflege. Firmenwissen sekundenschnell abrufbar." />
-    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="KI Wissenssysteme" />
+    <meta property="og:image" content="https://ki-wissenssysteme.de/favicon.svg" />
+
+    <!-- Twitter / X Cards -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://ki-wissenssysteme.de/" />
+    <meta name="twitter:title" content="KI Wissenssysteme | Intelligentes Enterprise Wissensmanagement" />
+    <meta name="twitter:description" content="Moderne, DSGVO-konforme KI-Wissensassistenten & Enterprise RAG für KMU, Handwerk, Kanzleien und Pflege. Firmenwissen sekundenschnell abrufbar." />
+    <meta name="twitter:image" content="https://ki-wissenssysteme.de/favicon.svg" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org Strukturierte Daten: Unternehmen / Dienstleister (LocalBusiness & ProfessionalService) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["ProfessionalService", "LocalBusiness", "Organization"],
+          "@id": "https://ki-wissenssysteme.de/#organization",
+          "name": "KI Wissenssysteme",
+          "alternateName": "KI Wissenssysteme – Thomas Meyer",
+          "url": "https://ki-wissenssysteme.de/",
+          "logo": "https://ki-wissenssysteme.de/favicon.svg",
+          "image": "https://ki-wissenssysteme.de/favicon.svg",
+          "description": "Maßgeschneiderte, DSGVO-konforme KI-Wissensassistenten und Enterprise RAG für deutsche Unternehmen, KMU, Handwerk, Kanzleien und Pflegeeinrichtungen.",
+          "founder": {
+            "@type": "Person",
+            "name": "Thomas Meyer"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Solnhofen",
+            "addressRegion": "Bayern",
+            "addressCountry": "DE"
+          },
+          "telephone": "+49 176 24032313",
+          "email": "info@ki-wissenssysteme.de",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          "priceRange": "$$",
+          "sameAs": [
+            "https://wa.me/4917624032313"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ki-wissenssysteme.de/#website",
+          "url": "https://ki-wissenssysteme.de/",
+          "name": "KI Wissenssysteme",
+          "description": "Intelligentes Enterprise Wissensmanagement & DSGVO-konforme interne KI-Assistenten",
+          "publisher": {
+            "@id": "https://ki-wissenssysteme.de/#organization"
+          },
+          "inLanguage": "de-DE"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://ki-wissenssysteme.de/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Werden unsere internen Firmendaten für das Training von KI-Modellen verwendet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein, zu 100% ausgeschlossen. Wir nutzen dedizierte Schnittstellen und private Enterprise-Instanzen mit vertraglicher Zusicherung nach Art. 28 DSGVO (Auftragsverarbeitungsvertrag). Ihre Daten bleiben Ihr Eigentum und werden niemals in öffentliche Trainingsdatensätze eingespeist."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Dateiformate und Systeme können angebunden werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Praktisch alle gängigen Unternehmensdaten: PDF-Dateien (auch gescannte Dokumente mit OCR), Word- und Excel-Dateien, PowerPoint, E-Mails, SharePoint, Nextcloud, lokale Windows-Netzlaufwerke, Confluence-Wikis sowie Webseiten und Handbücher."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Können Mitarbeiter Dokumente sehen, für die sie keine Berechtigung haben?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein. Das Wissenssystem implementiert strikte rollenbasierte Zugriffskontrollen. Wenn ein Mitarbeiter beispielsweise keinen Zugriff auf den Ordner „Geschäftsführung/Finanzen“ hat, erhält er aus diesen Dokumenten auch keinerlei Antworten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was unterscheidet KI Wissenssysteme von Standard-ChatGPT?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Standard-ChatGPT kennt Ihr Unternehmen nicht, darf aus Datenschutzgründen nicht mit vertraulichen Firmendaten gefüttert werden und erfindet im Zweifel Fakten („Halluzinationen“). Ein KI-Wissenssystem (RAG) antwortet ausschließlich fundiert auf Basis Ihrer echten Dokumente und belegt jede Aussage mit genauer Quellenangabe und Seitenzahl."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie hoch ist der technische Aufwand für unser eigenes IT-Team?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Minimal. Sie müssen keine eigene KI-Infrastruktur aufbauen oder pflegen. Wir übernehmen die Konfiguration, Schnittstellenanbindung, Rechtestruktur und das Onboarding schlüsselfertig. Ihr Team kann die Lösung bequem per Web-Browser oder Smartphone-App nutzen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie läuft die Zusammenarbeit ab und wo sitzt KI Wissenssysteme?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "KI Wissenssysteme wird von Thomas Meyer in Solnhofen (Bayern) betrieben. Sie sprechen direkt mit dem Gründer und Entwickler – keine Call-Center, keine Warteschleifen. Wir arbeiten deutschlandweit remote oder vor Ort in Bayern."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
-    <div id="root"></div>
+    <!-- 
+      Kriecher- und Search-Engine-optimierter Fallback-Inhalt:
+      Wird unmittelbar von Suchmaschinen-Bots (Googlebot Wave 1) ohne JS-Verzögerung indexiert.
+      React hydriert und ersetzt den Inhalt nahtlos für den menschlichen Besucher.
+    -->
+    <div id="root">
+      <header style="padding: 20px; text-align: center;">
+        <p><strong>KI Wissenssysteme – Thomas Meyer (Solnhofen, Bayern)</strong></p>
+        <p>DSGVO-konforme KI-Wissensassistenten & Enterprise RAG für den deutschen Mittelstand.</p>
+      </header>
+      <main style="max-width: 900px; margin: 0 auto; padding: 20px;">
+        <h1>Firmenwissen auf Knopfdruck. Nie wieder Dokumente suchen.</h1>
+        <p>
+          Verbinden Sie SharePoint, Netzlaufwerke, Handbücher und PDFs mit einem intelligenten, sicheren KI-Wissensassistenten.
+          Ihre Mitarbeiter in KMU, Handwerk, Kanzleien und Pflegeeinrichtungen erhalten in Sekunden fundierte Antworten mit exakten Quellenangaben.
+        </p>
+        <h2>Branchenspezifische Lösungen</h2>
+        <ul>
+          <li><strong>KMU, Verwaltung & Industrie:</strong> Wissen aus Netzlaufwerken, SharePoints & QM-Handbüchern sekundenschnell abrufbar. Bis zu 80% weniger interne Rückfragen.</li>
+          <li><strong>Pflege & Gesundheitswesen:</strong> Handlungssicherheit bei Notfallprotokollen, Hygienevorschriften & einrichtungsweiten SOPs direkt auf dem Stations-Tablet.</li>
+          <li><strong>Handwerk & Technischer Außendienst:</strong> Wartungspläne, Montageanleitungen & Fehlercodes direkt am Smartphone vor Ort beim Kunden.</li>
+          <li><strong>Kanzleien & Beratung:</strong> Präzise Quellensuche in Gutachten, Mandantenakten & Fachliteratur ohne Cloud-Risiko nach § 203 StGB.</li>
+        </ul>
+        <h2>Sicherheit & Datenschutz</h2>
+        <p>100% DSGVO-konforme Datenverarbeitung in deutschen Rechenzentren (oder On-Premise). Kein Modelltraining mit Ihren Unternehmensdaten.</p>
+        <h2>Kontakt</h2>
+        <p>
+          KI Wissenssysteme – Thomas Meyer<br />
+          Sitz: Solnhofen, Bayern<br />
+          Telefon / WhatsApp: 01762 4032313<br />
+          E-Mail: info@ki-wissenssysteme.de
+        </p>
+      </main>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
